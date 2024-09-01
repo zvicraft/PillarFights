@@ -1,0 +1,22 @@
+###################################################
+######-------------| PillarsFight |----------######
+###################################################
+
+config-version: 0.1
+
+
+### worldMangers ###
+world:
+  name: ''
+  environment: ''
+  type: ''
+  seed: ''
+  structures: false
+  custom-generator: ''
+  gamemode: '' # survival (default), creative, adventure
+
+  ### Pillars ###
+pillars:
+  pillarBlock: BEDROCK
+  spawnRadius: 200
+  pillarHeight:
