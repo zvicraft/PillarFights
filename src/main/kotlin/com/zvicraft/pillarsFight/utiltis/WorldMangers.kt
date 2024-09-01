@@ -27,8 +27,6 @@ class WorldMangers(private val plugin: PillarsFight) {
         )
     }
     fun loadWorld() {
-
-    }
         worldManager.loadWorld(plugin.config.getString("gamemode", "survival"))
     }
 }
